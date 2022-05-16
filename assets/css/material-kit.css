@@ -941,7 +941,7 @@ img {
   background-color: #fff;
   background-clip: border-box;
   border: 0 solid rgba(0, 0, 0, .125);
-  border-radius: .75rem
+  border-radius: 5px 0px 40px 0px;
 }
 
 .card-body {
@@ -969,7 +969,7 @@ img {
 }
 
 .card-header:first-child {
-  border-radius: .75rem .75rem 0 0
+  border-radius: 5px 0px 40px 0px;
 }
 
 .card-footer {
@@ -979,7 +979,7 @@ img {
 }
 
 .card-footer:last-child {
-  border-radius: 0 0 .75rem .75rem
+  border-radius: 5px 0px 40px 0px;
 }
 
 .card-img,
@@ -5761,7 +5761,7 @@ img {
 }
 
 .border-radius-md {
-  border-radius: .375rem
+  border-radius: 5px 0px 40px 0px;
 }
 
 .border-radius-lg {
