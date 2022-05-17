@@ -942,6 +942,7 @@ img {
   background-clip: border-box;
   border: 0 solid rgba(0, 0, 0, .125);
   border-radius: 5px 0px 40px 0px;
+
 }
 
 .card-body {
@@ -1880,10 +1881,10 @@ img {
   margin-left: -.5rem !important
 }
 
-.mx-n3 {
+/* .mx-n3 {
   margin-right: -1rem !important;
   margin-left: -1rem !important
-}
+} */
 
 .mx-n4 {
   margin-right: -1.5rem !important;
@@ -2372,7 +2373,8 @@ img {
 }
 
 .text-info {
-  color: #1a73e8 !important
+  color: #1a73e8 !important;
+  font-size:0.8rem;
 }
 
 .text-dark {
@@ -2405,6 +2407,16 @@ img {
 
 .text-opacity-100 {
   --bs-text-opacity: 1
+}
+
+.hero {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.hero:hover {
+  color: lightgray;
+  text-decoration: underline;
 }
 
 .bg-info {
@@ -5966,7 +5978,7 @@ a {
 
 .p,
 p {
-  font-size: 1rem
+  font-size: 0.9rem
 }
 
 .lead {
